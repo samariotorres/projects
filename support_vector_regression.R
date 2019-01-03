@@ -1,4 +1,5 @@
 # SVR
+#For the intuition and other information for SVR see the support_vector_regression.py file located in the same repository.
 #Support Vector Regression from SVM
 # Importing the dataset
 dataset = read.csv('Position_Salaries.csv')
