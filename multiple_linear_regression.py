@@ -18,7 +18,7 @@ labelencoder = LabelEncoder() #creating our labelencoder object from LabelEncode
 X[:, 3] = labelencoder.fit_transform(X[:, 3]) #Setting the column that we want encoded in this case
 # we want to change the values for the States column
 onehotencoder = OneHotEncoder(categorical_features = [3]) #now we do not want the model to treat one of the
-#states as literally being greater than the other...so we give them binary values 
+#states as literally being greater than the other...so we give them encoded values 
 X = onehotencoder.fit_transform(X).toarray() #then we need to fit_transform those values 
 #X = onehotencoder.fit_transform(X).toarray()
 
