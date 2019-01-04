@@ -67,7 +67,7 @@ Coefficients are very rarely zero, because there will always be a SLIGHT random 
 the independent variable and the dependent variable."
 
 
-----------------> R^2 is BIASED <-------------- it increases no matter if is improvement or non-improvement
+----------------> R^2 is BIASED <-------------- it increases no matter if it is improvement or non-improvement
 
 But,  -----------------------------> Adjusted R^2 <--------------------- 
   
