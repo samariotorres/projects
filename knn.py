@@ -7,8 +7,8 @@
 # 
 # Step 2.) Take the K-nearest neighbors of the new data point, according to their
 #         Euclidean distance...or Manhattan distance...in most cases its Euclidean
-#         
-#         and you could use other distances like Minkowski distance (p-norm)
+#         You could use other distances like Minkowski distances and take a p-norm
+#         In this example we use the l2 norm (basic 2-D Euclidean norm)
 # 
 # Step 3.) Once we have done this, then among these K-nearest neighbors, count 
 #         the number of data points in each category.
