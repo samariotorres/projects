@@ -77,10 +77,10 @@ X1, X2 = np.meshgrid(np.arange(start = X_set[:, 0].min() - 1, stop = X_set[:, 0]
 
 plt.contourf(X1, X2, classifier.predict(np.array([X1.ravel(), X2.ravel()]).T).reshape(X1.shape),  #this line here is where we 
              #actually apply the classifier to all of the "pixel observation points" and by doing that, 
-             #it colorizes everything.. use contour function to actually make the contour between the two prediction regions..
+             #it colorizes everything.. use contour function to actually make the contour between the two prediction regions.
             
-             alpha = 0.75, cmap = ListedColormap(('red','green'))) #------>if the pixel point belongs to class zero its gets red, 
-                                                                    # else it gets green
+             alpha = 0.75, cmap = ListedColormap(('red','green'))) #------>if the pixel point belongs to class zero  
+                                                                    # its gets red, else it gets green
 
 plt.xlim(X1.min(), X1.max()) #here we are plotting the limits of                               
 
