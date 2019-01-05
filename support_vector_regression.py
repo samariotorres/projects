@@ -1,4 +1,4 @@
-# ----------------------------SVR INTUTION--------------------------
+# ----------------------------SVR INTUITION--------------------------
 #SVR performs linear regression in a higher dimensional space
 #You can think of SVR as if each data point in the training set, represents its own 
 # dimension. When you are evaluating your kernel between a test point and a point in the
