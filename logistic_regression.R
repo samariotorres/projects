@@ -12,7 +12,10 @@ split = sample.split(dataset$Purchased, SplitRatio = 0.75) # 75% going to the tr
 training_set = subset(dataset, split == TRUE) 
 test_set = subset(dataset, split == FALSE)
 
-#now we need to take care feature scaling..very easy in R using the scale function
+#now we need to take care feature scaling..for the same reason why we did it
+#it in Python, so that in this case, the Estimated Salary and Age are not directly compared
+#numerically..it doesn't make sense to actually compare the number 40 and the number 60,000...
+# and its easy in R to do this we use the scale function
 training_set[,1:2] = scale(training_set[,1:2])
 test_set[, 1:2] = scale(test_set[, 1:2])
 
