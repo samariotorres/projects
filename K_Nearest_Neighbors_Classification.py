@@ -1,4 +1,4 @@
-# K-Nearest Neighbors (K-NN)
+# K-Nearest Neighbors (K-NN) Classification
 # =============================================================================
 # #----------------------------K-NN Intuition---------------------
 # K-NN Step by Step Guide (Very simple algorithm)
