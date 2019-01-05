@@ -10,7 +10,7 @@
 # about our points. Are the splits adding value? how do we want to group our points?
 # The algorithm knows when to stop when there is a certain minimum for the information that needs to be added and once
 # it cannot add any more information (its reached the minimum), it stops SPLITTING the LEAVES (each split is called
-# a leaf). For example, a decision_tree_regression would stop if WHEN we conducted a split,
+# a leaf). For example, a decision_tree_regression would stop if the following event occured: WHEN we conducted a split,
 # that split or leaf would have less than 5% of the total scattered points, then that leaf wouldn't be created.
 # Final leaves are called TERMINAL leaves.
 # By adding these leaves, we've added information into our system. how does that help us predict the value of y?
