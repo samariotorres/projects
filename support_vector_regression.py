@@ -33,7 +33,7 @@
 #                       grow as you move away from the training data, the machine
 #                       will return the mean value of the training data.
 # In addition to choosing the kernel, regularization is also important.
-# Because the due to the training sets with noise the regularizer will help prevent wild
+# Because due to the training sets with noise, the regularizer will help prevent wild
 # fluctuations between the data points by smoothing out the prior.
 
 # We evaluate our kernel at the correlation matrix, for all pairs of points in the 
